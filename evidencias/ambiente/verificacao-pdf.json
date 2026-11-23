@@ -1,0 +1,8 @@
+{
+  "pdf_header": true,
+  "eof": true,
+  "pages": 7,
+  "bytes": 139940,
+  "text_streams": 7,
+  "limitation": "Validação estrutural e de presença de texto; prévia visual HTML separada, sem renderizador PDF independente."
+}

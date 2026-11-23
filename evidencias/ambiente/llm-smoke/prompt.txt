@@ -1,0 +1,1 @@
+Teste de infraestrutura sem aplicação e sem bug. Responda com type finish, target vazio, value vazio e reason conexão verificada. Não use ferramentas.

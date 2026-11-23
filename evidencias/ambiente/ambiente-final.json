@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-23T05:32:39.897Z",
+  "timezone": "America/Sao_Paulo",
+  "os": "Windows_NT",
+  "release": "10.0.19045",
+  "architecture": "x64",
+  "node": "v24.22.1",
+  "playwright": "1.65.1",
+  "chromium": "159.0.8154.6",
+  "model": "gpt-6-astra",
+  "cli": "0.162.0-alpha.17.2",
+  "total_memory_bytes": 8497532928,
+  "cpu_model": "Intel(R) Core(TM) i7-5500U CPU @ 2.40GHz",
+  "logical_cpus": 4
+}

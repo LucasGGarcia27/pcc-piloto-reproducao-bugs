@@ -1,0 +1,1 @@
+{"type":"finish","target":"","value":"","reason":"Bug reproduzido: Escape manteve a tarefa em edição com 'changed'; ao clicar no campo de nova tarefa, esse texto foi aplicado no lugar do título original 'buy milk'."}

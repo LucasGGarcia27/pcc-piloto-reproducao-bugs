@@ -1,0 +1,27 @@
+{
+  "configuration": "C7",
+  "executed": true,
+  "valid": true,
+  "bug_reproduced": true,
+  "actions": 6,
+  "successful_actions": 6,
+  "duration_ms": 41004,
+  "model_calls": 7,
+  "usage": {
+    "input_tokens": 46881,
+    "cached_input_tokens": 27008,
+    "output_tokens": 310
+  },
+  "model": "gpt-6-astra",
+  "browser": "159.0.8154.6",
+  "started": "2026-11-23T05:08:57.473Z",
+  "stop_reason": "agent_finished",
+  "infrastructure_error": null,
+  "cost": {
+    "api_charges_incurred": false,
+    "billed_currency_amount": null,
+    "note": "Autenticação ChatGPT existente; consumo de franquia, sem tarifa monetária observável."
+  },
+  "package_sha256": "048d913c2767b41f176961b8dd5690f14e9c690416f108bd0145c28cb0553b63",
+  "evidence": "evidencias/configuracoes/C7/resultado.json"
+}

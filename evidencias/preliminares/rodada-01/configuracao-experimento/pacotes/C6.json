@@ -1,0 +1,90 @@
+{
+  "report": {
+    "expected": "Ao cancelar uma alteração no título de uma tarefa, a edição deve ser encerrada e o título original deve ser preservado.",
+    "observed": "O cancelamento de uma alteração pode deixar a tarefa em edição e o texto que deveria ter sido descartado pode acabar sendo aplicado.",
+    "goal": "Use a interface para tentar reproduzir esse comportamento e registre o que observou."
+  },
+  "categories": {
+    "B": {
+      "category": "B",
+      "records": [
+        {
+          "order": 1,
+          "t_ms": 149,
+          "method": "GET",
+          "endpoint": "/",
+          "resource_type": "document",
+          "parameters": {},
+          "status": 200,
+          "response_t_ms": 285
+        },
+        {
+          "order": 2,
+          "t_ms": 287,
+          "method": "GET",
+          "endpoint": "/app.bundle.js",
+          "resource_type": "script",
+          "parameters": {},
+          "status": 200,
+          "response_t_ms": 512
+        },
+        {
+          "order": 3,
+          "t_ms": 289,
+          "method": "GET",
+          "endpoint": "/app.css",
+          "resource_type": "stylesheet",
+          "parameters": {},
+          "status": 200,
+          "response_t_ms": 511
+        },
+        {
+          "order": 4,
+          "t_ms": 290,
+          "method": "GET",
+          "endpoint": "/base.js",
+          "resource_type": "script",
+          "parameters": {},
+          "status": 200,
+          "response_t_ms": 512
+        },
+        {
+          "order": 5,
+          "t_ms": 512,
+          "method": "GET",
+          "endpoint": "/learn.json",
+          "resource_type": "xhr",
+          "parameters": {},
+          "status": 404,
+          "response_t_ms": 849
+        }
+      ],
+      "limitations": [
+        "Esta versão mantém tarefas em memória React; nenhuma API funcional de tarefas.",
+        "Corpos de HTML/JS/CSS não são disponibilizados para evitar acesso ao código-fonte.",
+        "learn.json é recurso auxiliar ausente no dist oficial; seu 404 não é o bug."
+      ]
+    },
+    "C": {
+      "category": "C",
+      "records": [
+        {
+          "order": 1,
+          "t_ms": 517,
+          "type": "lifecycle",
+          "name": "domcontentloaded"
+        },
+        {
+          "order": 2,
+          "t_ms": 517,
+          "type": "lifecycle",
+          "name": "load"
+        }
+      ],
+      "limitations": [
+        "Eventos de ciclo de vida são observações do navegador, sem instrumentação de funções da aplicação.",
+        "Erros de carregamento de recursos auxiliares são mantidos na evidência bruta, mas excluídos deste pacote."
+      ]
+    }
+  }
+}

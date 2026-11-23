@@ -1,0 +1,90 @@
+[
+  {
+    "step": 1,
+    "action": {
+      "type": "fill",
+      "target": "1",
+      "value": "Tarefa original",
+      "reason": "Criar uma tarefa para testar o cancelamento da edição do título."
+    },
+    "before": {
+      "labels": [],
+      "editing_count": 0,
+      "editing_indices": [],
+      "edit_values": [],
+      "visible_text": "todos\n\nDouble-click to edit a todo\n\nCreated by the TodoMVC Team\n\nPart of TodoMVC",
+      "storage": {}
+    },
+    "after": {
+      "labels": [],
+      "editing_count": 0,
+      "editing_indices": [],
+      "edit_values": [],
+      "visible_text": "todos\n\nDouble-click to edit a todo\n\nCreated by the TodoMVC Team\n\nPart of TodoMVC",
+      "storage": {}
+    },
+    "error": null
+  },
+  {
+    "step": 2,
+    "action": {
+      "type": "press",
+      "target": "1",
+      "value": "Enter",
+      "reason": "Adicionar a tarefa para testar a edição e seu cancelamento."
+    },
+    "before": {
+      "labels": [],
+      "editing_count": 0,
+      "editing_indices": [],
+      "edit_values": [],
+      "visible_text": "todos\n\nDouble-click to edit a todo\n\nCreated by the TodoMVC Team\n\nPart of TodoMVC",
+      "storage": {}
+    },
+    "after": {
+      "labels": [
+        "Tarefa original"
+      ],
+      "editing_count": 0,
+      "editing_indices": [],
+      "edit_values": [],
+      "visible_text": "todos\nToggle All Input\nTarefa original\n1 item left!\nAllActiveCompleted\n\nDouble-click to edit a todo\n\nCreated by the TodoMVC Team\n\nPart of TodoMVC",
+      "storage": {}
+    },
+    "error": null
+  },
+  {
+    "step": 3,
+    "action": {
+      "type": "dblclick",
+      "target": "5",
+      "value": "",
+      "reason": "Abrir a edição do título para testar o cancelamento de uma alteração."
+    },
+    "before": {
+      "labels": [
+        "Tarefa original"
+      ],
+      "editing_count": 0,
+      "editing_indices": [],
+      "edit_values": [],
+      "visible_text": "todos\nToggle All Input\nTarefa original\n1 item left!\nAllActiveCompleted\n\nDouble-click to edit a todo\n\nCreated by the TodoMVC Team\n\nPart of TodoMVC",
+      "storage": {}
+    },
+    "after": {
+      "labels": [
+        "Tarefa original"
+      ],
+      "editing_count": 1,
+      "editing_indices": [
+        0
+      ],
+      "edit_values": [
+        "Tarefa original"
+      ],
+      "visible_text": "todos\nToggle All Input\n1 item left!\nAllActiveCompleted\n\nDouble-click to edit a todo\n\nCreated by the TodoMVC Team\n\nPart of TodoMVC",
+      "storage": {}
+    },
+    "error": null
+  }
+]

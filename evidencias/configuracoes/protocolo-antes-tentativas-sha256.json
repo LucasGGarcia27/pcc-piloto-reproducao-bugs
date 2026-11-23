@@ -1,0 +1,97 @@
+﻿[
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "96529BADDCAC80264F92C2912D5FE36CA0EF787A6CC508A8442F1C99F15662E6",
+        "Path":  "C:\\Users\\Diego\\Desktop\\PCC-Piloto\\piloto-pcc\\scripts\\lib.mjs"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "43BBA93629D8C5CA2131D2F8F92DCF89DA0C05A69E8EE39EAD7A0ECC14A61280",
+        "Path":  "C:\\Users\\Diego\\Desktop\\PCC-Piloto\\piloto-pcc\\scripts\\decisor.mjs"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "31EE7FFD5CD3B93033574F745967F6426D673EE530398D22222FF4C3A889EDC0",
+        "Path":  "C:\\Users\\Diego\\Desktop\\PCC-Piloto\\piloto-pcc\\scripts\\agente.mjs"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "EACBC3A6BB57E1EEC072D91A4392FE7F71BC3711B6A962445D0859A86815C517",
+        "Path":  "C:\\Users\\Diego\\Desktop\\PCC-Piloto\\piloto-pcc\\scripts\\oraculo.mjs"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "09DF4DD1B4586EF49090E181AD5588B5949E560C4DB2CFEF365739A2B302E5E4",
+        "Path":  "C:\\Users\\Diego\\Desktop\\PCC-Piloto\\piloto-pcc\\scripts\\preparar-pacotes.mjs"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "1FE4C0F93F8F57B2CE205FB7A7A6B1561ED2D32E2A3C9EAC32BB8185BE46B65B",
+        "Path":  "C:\\Users\\Diego\\Desktop\\PCC-Piloto\\piloto-pcc\\scripts\\referencia.mjs"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "96FFA8A2B5167844B926A7BEC69F52CF4730C68FE53349F9115CC577CD8C8C74",
+        "Path":  "C:\\Users\\Diego\\Desktop\\PCC-Piloto\\piloto-pcc\\scripts\\verificar.mjs"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "2BB03F3301F265184CC0EB870FAE17A4CE2B2A9E3D2723A1DA701F57DB772327",
+        "Path":  "C:\\Users\\Diego\\Desktop\\PCC-Piloto\\piloto-pcc\\configuracao-experimento\\acao.schema.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "69BEC0328D6F951D36C628CF64D65AB551D9722D84355F67BD2859F00A8DF7A3",
+        "Path":  "C:\\Users\\Diego\\Desktop\\PCC-Piloto\\piloto-pcc\\configuracao-experimento\\instrucoes-agente.txt"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "7F658ACCB88E0C607A74C0A930DB858FCE750C9BC0E808690A9CC96A05152C39",
+        "Path":  "C:\\Users\\Diego\\Desktop\\PCC-Piloto\\piloto-pcc\\configuracao-experimento\\protocolo.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "0DE76393B67611ACB71B67981463D31F39DB24B07CB1CDD8EC2D278EA28D19E2",
+        "Path":  "C:\\Users\\Diego\\Desktop\\PCC-Piloto\\piloto-pcc\\configuracao-experimento\\relato-basico.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "A952F96CE6D1BBE63B4D254050783892B148F3EC54AC76E6729972EA7F2EA605",
+        "Path":  "C:\\Users\\Diego\\Desktop\\PCC-Piloto\\piloto-pcc\\configuracao-experimento\\pacotes\\C0.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "180E64BAC2AEE2547441439E2A521B35AB04DD3A4FFFCE39597C108F9A15486F",
+        "Path":  "C:\\Users\\Diego\\Desktop\\PCC-Piloto\\piloto-pcc\\configuracao-experimento\\pacotes\\C1.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "1A411B46CB294EDE88A15B5ED785BA54E7D42D05293C60401305305B71994F50",
+        "Path":  "C:\\Users\\Diego\\Desktop\\PCC-Piloto\\piloto-pcc\\configuracao-experimento\\pacotes\\C2.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "77ADE232814BD09F1FE962667737DEB327C8E75B86EB02F339728083B0D0298D",
+        "Path":  "C:\\Users\\Diego\\Desktop\\PCC-Piloto\\piloto-pcc\\configuracao-experimento\\pacotes\\C3.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "41E72AC69A425F5EBBBF094768F68963AE103979FF7A9507BB0AC12A4CEEF105",
+        "Path":  "C:\\Users\\Diego\\Desktop\\PCC-Piloto\\piloto-pcc\\configuracao-experimento\\pacotes\\C4.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "B5CDD717FA6CAB2A4300BC4C87B12769865C7EE11E92A296887BCA7BA18CF64B",
+        "Path":  "C:\\Users\\Diego\\Desktop\\PCC-Piloto\\piloto-pcc\\configuracao-experimento\\pacotes\\C5.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "1B09EA3D0E359D3B9C105C48A7FD359D7B7BC95957049316179D5C54B6EAF78F",
+        "Path":  "C:\\Users\\Diego\\Desktop\\PCC-Piloto\\piloto-pcc\\configuracao-experimento\\pacotes\\C6.json"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "F6642F2EB9E1C2A433DF29FFEAC1B2715627FDFAE27DE9A8F74F454A356B2FBE",
+        "Path":  "C:\\Users\\Diego\\Desktop\\PCC-Piloto\\piloto-pcc\\configuracao-experimento\\pacotes\\C7.json"
+    }
+]

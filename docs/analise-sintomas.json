@@ -1,0 +1,93 @@
+[
+  {
+    "configuration": "C0",
+    "escape_symptom_observed": true,
+    "escape_step": 5,
+    "full_predefined_criterion_met": true,
+    "following_action": {
+      "type": "click",
+      "target": "1",
+      "value": "",
+      "reason": "Após Escape, a tarefa continuou em edição com o texto alterado. Tirar o foco para verificar se o texto que deveria ter sido descartado acaba aplicado."
+    }
+  },
+  {
+    "configuration": "C1",
+    "escape_symptom_observed": true,
+    "escape_step": 5,
+    "full_predefined_criterion_met": true,
+    "following_action": {
+      "type": "click",
+      "target": "1",
+      "value": "",
+      "reason": "Após Escape, a tarefa continua em edição com 'changed'. Tirar o foco para verificar se o texto cancelado acaba aplicado."
+    }
+  },
+  {
+    "configuration": "C2",
+    "escape_symptom_observed": true,
+    "escape_step": 5,
+    "full_predefined_criterion_met": false,
+    "following_action": {
+      "type": "press",
+      "target": "4",
+      "value": "Enter",
+      "reason": "Após Escape, a tarefa permaneceu em edição com o texto descartável; verificar se Enter acaba aplicando esse texto."
+    }
+  },
+  {
+    "configuration": "C3",
+    "escape_symptom_observed": true,
+    "escape_step": 5,
+    "full_predefined_criterion_met": true,
+    "following_action": {
+      "type": "click",
+      "target": "1",
+      "value": "",
+      "reason": "Após Escape, a tarefa continua em edição com o texto não descartado. Retirar o foco para verificar se essa alteração acaba sendo aplicada."
+    }
+  },
+  {
+    "configuration": "C4",
+    "escape_symptom_observed": true,
+    "escape_step": 5,
+    "full_predefined_criterion_met": true,
+    "following_action": {
+      "type": "click",
+      "target": "1",
+      "value": "",
+      "reason": "Após Escape, a tarefa continua em edição com 'changed'. Clicar fora para verificar se o texto cancelado acaba aplicado."
+    }
+  },
+  {
+    "configuration": "C5",
+    "escape_symptom_observed": true,
+    "escape_step": 5,
+    "full_predefined_criterion_met": true,
+    "following_action": {
+      "type": "click",
+      "target": "1",
+      "value": "",
+      "reason": "Após Escape, a tarefa continua em edição com “changed”. Clicar fora para verificar se o texto cancelado acaba sendo aplicado."
+    }
+  },
+  {
+    "configuration": "C6",
+    "escape_symptom_observed": true,
+    "escape_step": 5,
+    "full_predefined_criterion_met": false,
+    "following_action": null
+  },
+  {
+    "configuration": "C7",
+    "escape_symptom_observed": true,
+    "escape_step": 5,
+    "full_predefined_criterion_met": true,
+    "following_action": {
+      "type": "click",
+      "target": "1",
+      "value": "",
+      "reason": "Após Escape, a edição permanece aberta com 'changed'. Tirar o foco para verificar se o texto cancelado acaba aplicado."
+    }
+  }
+]

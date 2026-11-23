@@ -1,0 +1,14 @@
+{
+  "status": "oito_configuracoes_executadas",
+  "feasibility": "parcialmente_demonstrada_para_o_TCC",
+  "final_trials": 8,
+  "reproduced": 6,
+  "total_duration_ms": 340799,
+  "total_usage": {
+    "input_tokens": 350831,
+    "cached_input_tokens": 197120,
+    "output_tokens": 2479
+  },
+  "model": "gpt-6-astra",
+  "commit": "ff43b02e59dfa604386bb382034b2cd07c2bcd8a"
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "phase": "Teste de conexão sem bug",
+    "completed_llm_calls": 1,
+    "failed_llm_calls": 0,
+    "usage": {
+      "input_tokens": 5488,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 27,
+      "reasoning_output_tokens": 0
+    }
+  },
+  {
+    "phase": "Rodada preliminar com notas",
+    "completed_llm_calls": 56,
+    "failed_llm_calls": 0,
+    "usage": {
+      "input_tokens": 360278,
+      "cached_input_tokens": 154880,
+      "output_tokens": 2511
+    }
+  },
+  {
+    "phase": "C0 interrompida por limite",
+    "completed_llm_calls": 3,
+    "failed_llm_calls": 1,
+    "usage": {
+      "input_tokens": 18092,
+      "cached_input_tokens": 6912,
+      "output_tokens": 120
+    }
+  },
+  {
+    "phase": "Rodada final válida",
+    "completed_llm_calls": 55,
+    "failed_llm_calls": 0,
+    "usage": {
+      "input_tokens": 350831,
+      "cached_input_tokens": 197120,
+      "output_tokens": 2479
+    }
+  }
+]

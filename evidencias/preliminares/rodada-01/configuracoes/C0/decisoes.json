@@ -1,0 +1,86 @@
+[
+  {
+    "step": 1,
+    "thread_id": "01a206c9-f88d-7941-9a4c-1681dcacf580",
+    "usage": {
+      "input_tokens": 5930,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 39,
+      "reasoning_output_tokens": 0
+    },
+    "native_tool_calls": 0
+  },
+  {
+    "step": 2,
+    "thread_id": "01a206ca-0bcd-70e3-b6be-2a85bffc3081",
+    "usage": {
+      "input_tokens": 5976,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 38,
+      "reasoning_output_tokens": 0
+    },
+    "native_tool_calls": 0
+  },
+  {
+    "step": 3,
+    "thread_id": "01a206ca-2009-7cf2-8bb4-f7a5af791778",
+    "usage": {
+      "input_tokens": 6177,
+      "cached_input_tokens": 5248,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 39,
+      "reasoning_output_tokens": 0
+    },
+    "native_tool_calls": 0
+  },
+  {
+    "step": 4,
+    "thread_id": "01a206ca-35af-7862-9e98-58f7de6d8a37",
+    "usage": {
+      "input_tokens": 6199,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 44,
+      "reasoning_output_tokens": 0
+    },
+    "native_tool_calls": 0
+  },
+  {
+    "step": 5,
+    "thread_id": "01a206ca-4bfe-7a80-8fb2-974813e098d9",
+    "usage": {
+      "input_tokens": 6250,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 41,
+      "reasoning_output_tokens": 0
+    },
+    "native_tool_calls": 0
+  },
+  {
+    "step": 6,
+    "thread_id": "01a206ca-6675-7342-b924-f9b5b9eeafd2",
+    "usage": {
+      "input_tokens": 6294,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 56,
+      "reasoning_output_tokens": 0
+    },
+    "native_tool_calls": 0
+  },
+  {
+    "step": 7,
+    "thread_id": "01a206ca-816a-7400-b674-837fbc66606e",
+    "usage": {
+      "input_tokens": 6377,
+      "cached_input_tokens": 3456,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 57,
+      "reasoning_output_tokens": 0
+    },
+    "native_tool_calls": 0
+  }
+]

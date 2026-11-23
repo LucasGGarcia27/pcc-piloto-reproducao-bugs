@@ -1,0 +1,220 @@
+{
+  "results": [
+    {
+      "configuration": "C0",
+      "executed": true,
+      "valid": true,
+      "bug_reproduced": true,
+      "actions": 6,
+      "successful_actions": 6,
+      "duration_ms": 42934,
+      "model_calls": 7,
+      "usage": {
+        "input_tokens": 43229,
+        "cached_input_tokens": 17280,
+        "output_tokens": 318
+      },
+      "model": "gpt-6-astra",
+      "browser": "159.0.8154.6",
+      "started": "2026-11-23T05:26:22.658Z",
+      "stop_reason": "agent_finished",
+      "infrastructure_error": null,
+      "cost": {
+        "api_charges_incurred": false,
+        "billed_currency_amount": null,
+        "note": "Autenticação ChatGPT existente; consumo de franquia, sem tarifa monetária observável."
+      },
+      "package_sha256": "1437201cf8656613773dd33b4bac535939f65c956cc4e9ae9a7f78eb83a9e26e",
+      "evidence": "evidencias/configuracoes/C0/resultado.json"
+    },
+    {
+      "configuration": "C1",
+      "executed": true,
+      "valid": true,
+      "bug_reproduced": true,
+      "actions": 6,
+      "successful_actions": 6,
+      "duration_ms": 43747,
+      "model_calls": 7,
+      "usage": {
+        "input_tokens": 44416,
+        "cached_input_tokens": 24192,
+        "output_tokens": 313
+      },
+      "model": "gpt-6-astra",
+      "browser": "159.0.8154.6",
+      "started": "2026-11-23T05:27:06.242Z",
+      "stop_reason": "agent_finished",
+      "infrastructure_error": null,
+      "cost": {
+        "api_charges_incurred": false,
+        "billed_currency_amount": null,
+        "note": "Autenticação ChatGPT existente; consumo de franquia, sem tarifa monetária observável."
+      },
+      "package_sha256": "3aebc56829a08b9bd96b6cc0050b6b13ca18d3e343ba3b51b914c8ad0e4a6cd6",
+      "evidence": "evidencias/configuracoes/C1/resultado.json"
+    },
+    {
+      "configuration": "C2",
+      "executed": true,
+      "valid": true,
+      "bug_reproduced": false,
+      "actions": 6,
+      "successful_actions": 6,
+      "duration_ms": 40998,
+      "model_calls": 7,
+      "usage": {
+        "input_tokens": 44619,
+        "cached_input_tokens": 24192,
+        "output_tokens": 317
+      },
+      "model": "gpt-6-astra",
+      "browser": "159.0.8154.6",
+      "started": "2026-11-23T05:27:50.529Z",
+      "stop_reason": "agent_finished",
+      "infrastructure_error": null,
+      "cost": {
+        "api_charges_incurred": false,
+        "billed_currency_amount": null,
+        "note": "Autenticação ChatGPT existente; consumo de franquia, sem tarifa monetária observável."
+      },
+      "package_sha256": "84c02bc4adcaa76a396000e0ce13f2ee05d1fb303c6113ba58e59f2456b933df",
+      "evidence": "evidencias/configuracoes/C2/resultado.json"
+    },
+    {
+      "configuration": "C3",
+      "executed": true,
+      "valid": true,
+      "bug_reproduced": true,
+      "actions": 6,
+      "successful_actions": 6,
+      "duration_ms": 43386,
+      "model_calls": 7,
+      "usage": {
+        "input_tokens": 43550,
+        "cached_input_tokens": 24192,
+        "output_tokens": 313
+      },
+      "model": "gpt-6-astra",
+      "browser": "159.0.8154.6",
+      "started": "2026-11-23T05:28:32.274Z",
+      "stop_reason": "agent_finished",
+      "infrastructure_error": null,
+      "cost": {
+        "api_charges_incurred": false,
+        "billed_currency_amount": null,
+        "note": "Autenticação ChatGPT existente; consumo de franquia, sem tarifa monetária observável."
+      },
+      "package_sha256": "0da09689c43637700ac97a356c039b04f83db43d3b20a16ca26bbee440cd092a",
+      "evidence": "evidencias/configuracoes/C3/resultado.json"
+    },
+    {
+      "configuration": "C4",
+      "executed": true,
+      "valid": true,
+      "bug_reproduced": true,
+      "actions": 6,
+      "successful_actions": 6,
+      "duration_ms": 41968,
+      "model_calls": 7,
+      "usage": {
+        "input_tokens": 45803,
+        "cached_input_tokens": 24192,
+        "output_tokens": 304
+      },
+      "model": "gpt-6-astra",
+      "browser": "159.0.8154.6",
+      "started": "2026-11-23T05:29:16.132Z",
+      "stop_reason": "agent_finished",
+      "infrastructure_error": null,
+      "cost": {
+        "api_charges_incurred": false,
+        "billed_currency_amount": null,
+        "note": "Autenticação ChatGPT existente; consumo de franquia, sem tarifa monetária observável."
+      },
+      "package_sha256": "1aac674e3edfa0faaf376ebf86d8e38d8941462e236c8383bfa0a4dd3100df30",
+      "evidence": "evidencias/configuracoes/C4/resultado.json"
+    },
+    {
+      "configuration": "C5",
+      "executed": true,
+      "valid": true,
+      "bug_reproduced": true,
+      "actions": 6,
+      "successful_actions": 6,
+      "duration_ms": 44977,
+      "model_calls": 7,
+      "usage": {
+        "input_tokens": 44754,
+        "cached_input_tokens": 31488,
+        "output_tokens": 304
+      },
+      "model": "gpt-6-astra",
+      "browser": "159.0.8154.6",
+      "started": "2026-11-23T05:29:58.667Z",
+      "stop_reason": "agent_finished",
+      "infrastructure_error": null,
+      "cost": {
+        "api_charges_incurred": false,
+        "billed_currency_amount": null,
+        "note": "Autenticação ChatGPT existente; consumo de franquia, sem tarifa monetária observável."
+      },
+      "package_sha256": "f652212e760af047c97a8946b111eafcf7e0ff33272aba0918f56065889118b4",
+      "evidence": "evidencias/configuracoes/C5/resultado.json"
+    },
+    {
+      "configuration": "C6",
+      "executed": true,
+      "valid": true,
+      "bug_reproduced": false,
+      "actions": 5,
+      "successful_actions": 5,
+      "duration_ms": 37050,
+      "model_calls": 6,
+      "usage": {
+        "input_tokens": 38302,
+        "cached_input_tokens": 24960,
+        "output_tokens": 299
+      },
+      "model": "gpt-6-astra",
+      "browser": "159.0.8154.6",
+      "started": "2026-11-23T05:30:44.161Z",
+      "stop_reason": "agent_finished",
+      "infrastructure_error": null,
+      "cost": {
+        "api_charges_incurred": false,
+        "billed_currency_amount": null,
+        "note": "Autenticação ChatGPT existente; consumo de franquia, sem tarifa monetária observável."
+      },
+      "package_sha256": "8f5fc969e7ea57f9f02028b783b51e961fec52065e65a4839fa1bf843a47dd3f",
+      "evidence": "evidencias/configuracoes/C6/resultado.json"
+    },
+    {
+      "configuration": "C7",
+      "executed": true,
+      "valid": true,
+      "bug_reproduced": true,
+      "actions": 6,
+      "successful_actions": 6,
+      "duration_ms": 45739,
+      "model_calls": 7,
+      "usage": {
+        "input_tokens": 46158,
+        "cached_input_tokens": 26624,
+        "output_tokens": 311
+      },
+      "model": "gpt-6-astra",
+      "browser": "159.0.8154.6",
+      "started": "2026-11-23T05:31:23.558Z",
+      "stop_reason": "agent_finished",
+      "infrastructure_error": null,
+      "cost": {
+        "api_charges_incurred": false,
+        "billed_currency_amount": null,
+        "note": "Autenticação ChatGPT existente; consumo de franquia, sem tarifa monetária observável."
+      },
+      "package_sha256": "14ce0be847ceb13da01c19dd44649c1d91b112613ccb4e64f4e0f2a91af30fd6",
+      "evidence": "evidencias/configuracoes/C7/resultado.json"
+    }
+  ]
+}

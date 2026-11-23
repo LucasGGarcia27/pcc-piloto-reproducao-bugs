@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "properties": {
+    "type": {"type": "string", "enum": ["click", "dblclick", "fill", "press", "reload", "finish"]},
+    "target": {"type": "string"},
+    "value": {"type": "string"},
+    "reason": {"type": "string"}
+  },
+  "required": ["type", "target", "value", "reason"],
+  "additionalProperties": false
+}

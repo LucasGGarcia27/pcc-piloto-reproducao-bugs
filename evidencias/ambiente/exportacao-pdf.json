@@ -1,0 +1,15 @@
+{
+  "title": "Estudo piloto PCC",
+  "tables": 5,
+  "images": [
+    {
+      "loaded": true,
+      "width": 1280
+    },
+    {
+      "loaded": true,
+      "width": 1280
+    }
+  ],
+  "text_length": 18600
+}

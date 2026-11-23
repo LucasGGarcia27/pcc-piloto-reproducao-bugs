@@ -1,0 +1,21 @@
+{
+  "category": "C",
+  "records": [
+    {
+      "order": 1,
+      "t_ms": 517,
+      "type": "lifecycle",
+      "name": "domcontentloaded"
+    },
+    {
+      "order": 2,
+      "t_ms": 517,
+      "type": "lifecycle",
+      "name": "load"
+    }
+  ],
+  "limitations": [
+    "Eventos de ciclo de vida são observações do navegador, sem instrumentação de funções da aplicação.",
+    "Erros de carregamento de recursos auxiliares são mantidos na evidência bruta, mas excluídos deste pacote."
+  ]
+}

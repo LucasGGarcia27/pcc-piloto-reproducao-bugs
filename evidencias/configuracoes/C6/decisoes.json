@@ -1,0 +1,74 @@
+[
+  {
+    "step": 1,
+    "thread_id": "01a206e2-9eda-7dd3-b6a3-f06cb5ca11e6",
+    "usage": {
+      "input_tokens": 6177,
+      "cached_input_tokens": 5888,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 39,
+      "reasoning_output_tokens": 0
+    },
+    "native_tool_calls": 0
+  },
+  {
+    "step": 2,
+    "thread_id": "01a206e2-b2f3-7de3-b57a-faa29bf41e2d",
+    "usage": {
+      "input_tokens": 6223,
+      "cached_input_tokens": 3456,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 38,
+      "reasoning_output_tokens": 0
+    },
+    "native_tool_calls": 0
+  },
+  {
+    "step": 3,
+    "thread_id": "01a206e2-c8b9-7a12-9a4b-6a718332512d",
+    "usage": {
+      "input_tokens": 6424,
+      "cached_input_tokens": 5248,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 37,
+      "reasoning_output_tokens": 0
+    },
+    "native_tool_calls": 0
+  },
+  {
+    "step": 4,
+    "thread_id": "01a206e2-dffd-72c2-978b-f8fd65319ac3",
+    "usage": {
+      "input_tokens": 6444,
+      "cached_input_tokens": 3456,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 44,
+      "reasoning_output_tokens": 0
+    },
+    "native_tool_calls": 0
+  },
+  {
+    "step": 5,
+    "thread_id": "01a206e2-f8b9-7d10-8ed1-c71e505b0ec6",
+    "usage": {
+      "input_tokens": 6495,
+      "cached_input_tokens": 3456,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 41,
+      "reasoning_output_tokens": 0
+    },
+    "native_tool_calls": 0
+  },
+  {
+    "step": 6,
+    "thread_id": "01a206e3-0c68-71d0-a2da-3c149d1bdeef",
+    "usage": {
+      "input_tokens": 6539,
+      "cached_input_tokens": 3456,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 100,
+      "reasoning_output_tokens": 27
+    },
+    "native_tool_calls": 0
+  }
+]

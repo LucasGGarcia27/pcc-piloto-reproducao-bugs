@@ -1,0 +1,31 @@
+{
+  "results": [
+    {
+      "configuration": "C0",
+      "executed": true,
+      "valid": false,
+      "bug_reproduced": null,
+      "actions": 3,
+      "successful_actions": 3,
+      "duration_ms": 20280,
+      "model_calls": 3,
+      "usage": {
+        "input_tokens": 18092,
+        "cached_input_tokens": 6912,
+        "output_tokens": 120
+      },
+      "model": "gpt-6-astra",
+      "browser": "159.0.8154.6",
+      "started": "2026-11-23T05:10:54.866Z",
+      "stop_reason": "infrastructure_error",
+      "infrastructure_error": "Decisor indisponível: exit=1; timeout=false; consulte C:\\Users\\Diego\\Desktop\\PCC-Piloto\\piloto-pcc\\evidencias\\configuracoes\\C0\\decision-04",
+      "cost": {
+        "api_charges_incurred": false,
+        "billed_currency_amount": null,
+        "note": "Autenticação ChatGPT existente; consumo de franquia, sem tarifa monetária observável."
+      },
+      "package_sha256": "1437201cf8656613773dd33b4bac535939f65c956cc4e9ae9a7f78eb83a9e26e",
+      "evidence": "evidencias/configuracoes/C0/resultado.json"
+    }
+  ]
+}

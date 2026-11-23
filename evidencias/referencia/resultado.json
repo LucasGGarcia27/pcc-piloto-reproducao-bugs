@@ -1,0 +1,47 @@
+{
+  "kind": "deterministic_reference_not_llm",
+  "started": "2026-11-23T04:58:46.691Z",
+  "browser": "159.0.8154.6",
+  "actions": 7,
+  "duration_ms": 3000,
+  "bug_reproduced": true,
+  "states": {
+    "initial": {
+      "labels": [],
+      "editing_count": 0,
+      "edit_values": [],
+      "visible_text": "todos\n\nDouble-click to edit a todo\n\nCreated by the TodoMVC Team\n\nPart of TodoMVC",
+      "storage": {}
+    },
+    "created": {
+      "labels": [
+        "buy milk"
+      ],
+      "editing_count": 0,
+      "edit_values": [],
+      "visible_text": "todos\nToggle All Input\nbuy milk\n1 item left!\nAllActiveCompleted\n\nDouble-click to edit a todo\n\nCreated by the TodoMVC Team\n\nPart of TodoMVC",
+      "storage": {}
+    },
+    "after_escape": {
+      "labels": [
+        "buy milk"
+      ],
+      "editing_count": 1,
+      "edit_values": [
+        "changed"
+      ],
+      "visible_text": "todos\nToggle All Input\n1 item left!\nAllActiveCompleted\n\nDouble-click to edit a todo\n\nCreated by the TodoMVC Team\n\nPart of TodoMVC",
+      "storage": {}
+    },
+    "after_blur": {
+      "labels": [
+        "changed"
+      ],
+      "editing_count": 0,
+      "edit_values": [],
+      "visible_text": "todos\nToggle All Input\nchanged\n1 item left!\nAllActiveCompleted\n\nDouble-click to edit a todo\n\nCreated by the TodoMVC Team\n\nPart of TodoMVC",
+      "storage": {}
+    }
+  },
+  "criteria": "Após Escape, editor mantém changed; após blur, rótulo passa de buy milk a changed."
+}

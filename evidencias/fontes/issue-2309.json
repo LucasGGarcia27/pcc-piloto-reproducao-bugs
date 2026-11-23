@@ -1,0 +1,31 @@
+{
+  "issue": {
+    "id": 6251738922,
+    "url": "https://github.com/tastejs/todomvc/issues/2309",
+    "title": "react: Escape doesn't leave editing mode, and the discarded edit is saved on blur",
+    "issue_number": 2309,
+    "body": "**Spec** (app-spec.md, Editing): \"If escape is pressed during the edit, the edit state should be left and any changes be discarded.\"\n\n**Steps** (`examples/react/dist`)\n1. Add a todo \"buy milk\".\n2. Double-click it, change the text to \"changed\", press Escape.\n3. Click the \"What needs to be done?\" input.\n\n**Expected:** after step 2 the item leaves editing mode and shows \"buy milk\"; step 3 changes nothing.\n\n**Actual:** after step 2 the `<li>` keeps the `editing` class and the edit input stays visible. After step 3 the todo is saved as \"changed\", so the edit was never discarded.\n\nThe Cypress test `should cancel edits on escape` only asserts the label text right after Escape, so it passes. Asserting that `.editing` is gone, or blurring afterwards, would catch this.\n\n**Environment:** commit `ff43b02` (current main), app served statically, Chromium 156 driven by Playwright.\n\nFound while testing the official implementations against `app-spec.md` with an AI browser agent ([UIPilot](https://github.com/kennywu411-dev/uipilot)). Every step above was re-checked with a deterministic Playwright script using real mouse and keyboard events.\n",
+    "state": "open",
+    "user": {
+      "login": "kennywu411-dev",
+      "name": "kennywu411-dev",
+      "email": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/272751243?v=4",
+      "id": 272751243
+    },
+    "assignees": null,
+    "labels": null,
+    "milestone": null,
+    "state_reason": null,
+    "comments": 0,
+    "created_at": "2026-11-06T22:26:05Z",
+    "updated_at": "2026-11-06T22:26:05Z",
+    "closed_at": null,
+    "display_url": "https://github.com/tastejs/todomvc/issues/2309",
+    "display_title": "react: Escape doesn't leave editing mode, and the discarded edit is saved on blur"
+  },
+  "url": "https://github.com/tastejs/todomvc/issues/2309",
+  "title": "react: Escape doesn't leave editing mode, and the discarded edit is saved on blur",
+  "display_url": "https://github.com/tastejs/todomvc/issues/2309",
+  "display_title": "react: Escape doesn't leave editing mode, and the discarded edit is saved on blur"
+}

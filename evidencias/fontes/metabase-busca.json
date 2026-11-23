@@ -1,0 +1,22 @@
+{
+  "query": "repo:metabase/metabase is:issue is:closed \"filter\" \"v0.50\" label:Type:Bug",
+  "consulted_on": "2026-11-23",
+  "results": [
+    {
+      "url": "https://github.com/metabase/metabase/issues/36512",
+      "title": "MongoDB filter query using UST for Date Filter even when timezone is set in both Report Timezone and JAVA_TIMEZONE",
+      "issue_number": 36512
+    },
+    {
+      "url": "https://github.com/metabase/metabase/issues/55591",
+      "title": "Error upgrading from v0.49 to v0.50+",
+      "issue_number": 55591
+    },
+    {
+      "url": "https://github.com/metabase/metabase/issues/49473",
+      "title": "Migration v0.49 to v0.50 or v0.51",
+      "issue_number": 49473
+    }
+  ],
+  "decision": "Casos não executados. A busca não estabelece pertencimento ao benchmark ReBug; priorizado caso alternativo com commit exato e distribuição pronta."
+}

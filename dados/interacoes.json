@@ -1,0 +1,52 @@
+{
+  "category": "A",
+  "records": [
+    {
+      "order": 1,
+      "t_ms": 94,
+      "type": "navigate",
+      "element": "application",
+      "value": "/"
+    },
+    {
+      "order": 2,
+      "t_ms": 2087,
+      "type": "fill",
+      "element": "What needs to be done?",
+      "value": "buy milk"
+    },
+    {
+      "order": 3,
+      "t_ms": 2202,
+      "type": "press",
+      "element": "What needs to be done?",
+      "value": "Enter"
+    },
+    {
+      "order": 4,
+      "t_ms": 2422,
+      "type": "dblclick",
+      "element": "todo label: buy milk"
+    },
+    {
+      "order": 5,
+      "t_ms": 2496,
+      "type": "fill",
+      "element": "Edit todo",
+      "value": "changed"
+    },
+    {
+      "order": 6,
+      "t_ms": 2528,
+      "type": "press",
+      "element": "Edit todo",
+      "value": "Escape"
+    },
+    {
+      "order": 7,
+      "t_ms": 2662,
+      "type": "click",
+      "element": "What needs to be done?"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+﻿[
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "0C674316FCAC46EC1F1A8EAF4E6999031519037F3059D48A0C7E2B878EBDD141",
+        "Path":  "C:\\Users\\Diego\\Desktop\\PCC-Piloto\\contexto\\metodologia_proposta_pcc.md"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "50ED8017F9977616ACF5640ECB304B1DC1C5DD01B30BBF951B9FC9143E574AD8",
+        "Path":  "C:\\Users\\Diego\\Desktop\\PCC-Piloto\\contexto\\PCC.docx"
+    }
+]

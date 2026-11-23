@@ -1,0 +1,9 @@
+configuracao,categorias,executada,bug_reproduzido,acoes,tempo_segundos,chamadas_llm,tokens_entrada,tokens_entrada_cache,tokens_saida,evidencia
+C0,nenhuma,sim,sim,6,42.934,7,43229,17280,318,evidencias/configuracoes/C0/resultado.json
+C1,A,sim,sim,6,43.747,7,44416,24192,313,evidencias/configuracoes/C1/resultado.json
+C2,B,sim,nao,6,40.998,7,44619,24192,317,evidencias/configuracoes/C2/resultado.json
+C3,C,sim,sim,6,43.386,7,43550,24192,313,evidencias/configuracoes/C3/resultado.json
+C4,A+B,sim,sim,6,41.968,7,45803,24192,304,evidencias/configuracoes/C4/resultado.json
+C5,A+C,sim,sim,6,44.977,7,44754,31488,304,evidencias/configuracoes/C5/resultado.json
+C6,B+C,sim,nao,5,37.050,6,38302,24960,299,evidencias/configuracoes/C6/resultado.json
+C7,A+B+C,sim,sim,6,45.739,7,46158,26624,311,evidencias/configuracoes/C7/resultado.json

@@ -1,0 +1,16 @@
+﻿{
+    "Checked":  [
+                    "agente.mjs",
+                    "auditar-resultados.mjs",
+                    "decisor.mjs",
+                    "exportar-pdf.mjs",
+                    "gerar-relatorios.mjs",
+                    "lib.mjs",
+                    "oraculo.mjs",
+                    "preparar-pacotes.mjs",
+                    "referencia.mjs",
+                    "servir.mjs",
+                    "verificar.mjs"
+                ],
+    "Passed":  true
+}

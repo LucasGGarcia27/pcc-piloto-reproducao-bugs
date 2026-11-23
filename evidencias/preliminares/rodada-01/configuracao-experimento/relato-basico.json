@@ -1,0 +1,5 @@
+{
+  "expected": "Ao cancelar uma alteração no título de uma tarefa, a edição deve ser encerrada e o título original deve ser preservado.",
+  "observed": "O cancelamento de uma alteração pode deixar a tarefa em edição e o texto que deveria ter sido descartado pode acabar sendo aplicado.",
+  "goal": "Use a interface para tentar reproduzir esse comportamento e registre o que observou."
+}

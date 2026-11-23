@@ -1,0 +1,22 @@
+{
+  "protocol_version": "1.0.0",
+  "application": "TodoMVC React",
+  "repository": "https://github.com/tastejs/todomvc",
+  "commit": "ff43b02e59dfa604386bb382034b2cd07c2bcd8a",
+  "issue": "https://github.com/tastejs/todomvc/issues/2309",
+  "origin": "http://127.0.0.1:4173",
+  "viewport": {"width": 1280, "height": 800},
+  "locale": "en-US",
+  "timezone": "America/Sao_Paulo",
+  "initial_state": "Lista vazia, contexto de navegador novo e não persistente, rota inicial /.",
+  "configurations": {"C0": [], "C1": ["A"], "C2": ["B"], "C3": ["C"], "C4": ["A", "B"], "C5": ["A", "C"], "C6": ["B", "C"], "C7": ["A", "B", "C"]},
+  "execution_order": ["C0", "C1", "C2", "C3", "C4", "C5", "C6", "C7"],
+  "repetitions": 1,
+  "max_actions": 20,
+  "max_duration_seconds": 600,
+  "max_decision_seconds": 90,
+  "token_budget": {"soft_cumulative_output_limit": 12000, "hard_input_limit_characters_per_decision": 60000, "note": "CLI não oferece aqui teto rígido de tokens por chamada; uso real deve ser registrado e esta limitação reportada."},
+  "oracle": "Necessárias as duas partes: após pressionar Escape durante edição com texto diferente do original, o editor continua visível com o texto alterado; depois, ação de blur salva esse mesmo texto no rótulo. Oráculo usa ações e DOM registrados pelo executor, sem depender da afirmação do agente.",
+  "not_executed_is_failure": false,
+  "llm": {"transport": "codex exec --json --output-schema", "model": "gpt-6-astra", "reasoning_effort": "low", "selection": "Modelo já configurado no CLI do usuário, validado em chamada sem bug e fixado antes das tentativas.", "version_limitation": "Alias de modelo; backend não forneceu identificador imutável de snapshot."}
+}

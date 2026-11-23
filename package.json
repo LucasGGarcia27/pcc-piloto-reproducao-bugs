@@ -1,0 +1,16 @@
+{
+  "name": "piloto-pcc",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Piloto verificável de reprodução de bug real no TodoMVC React",
+  "scripts": {
+    "reference": "node scripts/referencia.mjs",
+    "packages": "node scripts/preparar-pacotes.mjs",
+    "verify": "node scripts/verificar.mjs",
+    "pilot": "node scripts/agente.mjs"
+  },
+  "dependencies": {
+    "playwright": "1.65.1"
+  }
+}

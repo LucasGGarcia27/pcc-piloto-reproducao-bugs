@@ -1,0 +1,1 @@
+2026-11-23T05:31:43.377809Z  WARN hyper_util::client::legacy::connect::http: tcp set_nodelay error: Foi fornecido um argumento inválido. (os error 10022)

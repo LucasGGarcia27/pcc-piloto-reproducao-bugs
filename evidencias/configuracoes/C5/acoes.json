@@ -1,0 +1,200 @@
+[
+  {
+    "step": 1,
+    "action": {
+      "type": "fill",
+      "target": "1",
+      "value": "buy milk",
+      "reason": "Criar uma tarefa para testar o cancelamento da edição."
+    },
+    "before": {
+      "labels": [],
+      "editing_count": 0,
+      "editing_indices": [],
+      "edit_values": [],
+      "visible_text": "todos\n\nDouble-click to edit a todo\n\nCreated by the TodoMVC Team\n\nPart of TodoMVC",
+      "storage": {}
+    },
+    "after": {
+      "labels": [],
+      "editing_count": 0,
+      "editing_indices": [],
+      "edit_values": [],
+      "visible_text": "todos\n\nDouble-click to edit a todo\n\nCreated by the TodoMVC Team\n\nPart of TodoMVC",
+      "storage": {}
+    },
+    "error": null
+  },
+  {
+    "step": 2,
+    "action": {
+      "type": "press",
+      "target": "1",
+      "value": "Enter",
+      "reason": "Adicionar a tarefa para testar o cancelamento de uma alteração no título."
+    },
+    "before": {
+      "labels": [],
+      "editing_count": 0,
+      "editing_indices": [],
+      "edit_values": [],
+      "visible_text": "todos\n\nDouble-click to edit a todo\n\nCreated by the TodoMVC Team\n\nPart of TodoMVC",
+      "storage": {}
+    },
+    "after": {
+      "labels": [
+        "buy milk"
+      ],
+      "editing_count": 0,
+      "editing_indices": [],
+      "edit_values": [],
+      "visible_text": "todos\nToggle All Input\nbuy milk\n1 item left!\nAllActiveCompleted\n\nDouble-click to edit a todo\n\nCreated by the TodoMVC Team\n\nPart of TodoMVC",
+      "storage": {}
+    },
+    "error": null
+  },
+  {
+    "step": 3,
+    "action": {
+      "type": "dblclick",
+      "target": "5",
+      "value": "",
+      "reason": "Abrir a edição do título da tarefa para testar o cancelamento."
+    },
+    "before": {
+      "labels": [
+        "buy milk"
+      ],
+      "editing_count": 0,
+      "editing_indices": [],
+      "edit_values": [],
+      "visible_text": "todos\nToggle All Input\nbuy milk\n1 item left!\nAllActiveCompleted\n\nDouble-click to edit a todo\n\nCreated by the TodoMVC Team\n\nPart of TodoMVC",
+      "storage": {}
+    },
+    "after": {
+      "labels": [
+        "buy milk"
+      ],
+      "editing_count": 1,
+      "editing_indices": [
+        0
+      ],
+      "edit_values": [
+        "buy milk"
+      ],
+      "visible_text": "todos\nToggle All Input\n1 item left!\nAllActiveCompleted\n\nDouble-click to edit a todo\n\nCreated by the TodoMVC Team\n\nPart of TodoMVC",
+      "storage": {}
+    },
+    "error": null
+  },
+  {
+    "step": 4,
+    "action": {
+      "type": "fill",
+      "target": "4",
+      "value": "changed",
+      "reason": "Alterar o título antes de tentar cancelar a edição com Escape."
+    },
+    "before": {
+      "labels": [
+        "buy milk"
+      ],
+      "editing_count": 1,
+      "editing_indices": [
+        0
+      ],
+      "edit_values": [
+        "buy milk"
+      ],
+      "visible_text": "todos\nToggle All Input\n1 item left!\nAllActiveCompleted\n\nDouble-click to edit a todo\n\nCreated by the TodoMVC Team\n\nPart of TodoMVC",
+      "storage": {}
+    },
+    "after": {
+      "labels": [
+        "buy milk"
+      ],
+      "editing_count": 1,
+      "editing_indices": [
+        0
+      ],
+      "edit_values": [
+        "changed"
+      ],
+      "visible_text": "todos\nToggle All Input\n1 item left!\nAllActiveCompleted\n\nDouble-click to edit a todo\n\nCreated by the TodoMVC Team\n\nPart of TodoMVC",
+      "storage": {}
+    },
+    "error": null
+  },
+  {
+    "step": 5,
+    "action": {
+      "type": "press",
+      "target": "4",
+      "value": "Escape",
+      "reason": "Cancelar a alteração e verificar se a edição termina preservando o título original."
+    },
+    "before": {
+      "labels": [
+        "buy milk"
+      ],
+      "editing_count": 1,
+      "editing_indices": [
+        0
+      ],
+      "edit_values": [
+        "changed"
+      ],
+      "visible_text": "todos\nToggle All Input\n1 item left!\nAllActiveCompleted\n\nDouble-click to edit a todo\n\nCreated by the TodoMVC Team\n\nPart of TodoMVC",
+      "storage": {}
+    },
+    "after": {
+      "labels": [
+        "buy milk"
+      ],
+      "editing_count": 1,
+      "editing_indices": [
+        0
+      ],
+      "edit_values": [
+        "changed"
+      ],
+      "visible_text": "todos\nToggle All Input\n1 item left!\nAllActiveCompleted\n\nDouble-click to edit a todo\n\nCreated by the TodoMVC Team\n\nPart of TodoMVC",
+      "storage": {}
+    },
+    "error": null
+  },
+  {
+    "step": 6,
+    "action": {
+      "type": "click",
+      "target": "1",
+      "value": "",
+      "reason": "Após Escape, a tarefa continua em edição com “changed”. Clicar fora para verificar se o texto cancelado acaba sendo aplicado."
+    },
+    "before": {
+      "labels": [
+        "buy milk"
+      ],
+      "editing_count": 1,
+      "editing_indices": [
+        0
+      ],
+      "edit_values": [
+        "changed"
+      ],
+      "visible_text": "todos\nToggle All Input\n1 item left!\nAllActiveCompleted\n\nDouble-click to edit a todo\n\nCreated by the TodoMVC Team\n\nPart of TodoMVC",
+      "storage": {}
+    },
+    "after": {
+      "labels": [
+        "changed"
+      ],
+      "editing_count": 0,
+      "editing_indices": [],
+      "edit_values": [],
+      "visible_text": "todos\nToggle All Input\nchanged\n1 item left!\nAllActiveCompleted\n\nDouble-click to edit a todo\n\nCreated by the TodoMVC Team\n\nPart of TodoMVC",
+      "storage": {}
+    },
+    "error": null
+  }
+]

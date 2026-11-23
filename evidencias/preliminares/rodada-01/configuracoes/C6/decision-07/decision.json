@@ -1,0 +1,1 @@
+{"type":"finish","target":"","value":"","reason":"Bug reproduzido: Escape deixou a tarefa em edição; ao clicar fora, o título original “Tarefa original” foi substituído por “Título que deve ser descartado”."}

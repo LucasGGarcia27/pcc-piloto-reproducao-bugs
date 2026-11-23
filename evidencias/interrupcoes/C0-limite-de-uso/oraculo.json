@@ -1,0 +1,5 @@
+{
+  "bug_reproduced": false,
+  "escape_symptom_seen": false,
+  "rule": "full_two_part_oracle_not_satisfied"
+}

@@ -1,0 +1,9 @@
+{
+  "bug_reproduced": true,
+  "escape_step": 5,
+  "index": 0,
+  "original": "Título original",
+  "edited": "Título que deveria ser descartado",
+  "blur_step": 6,
+  "rule": "escape_did_not_cancel_then_blur_committed"
+}

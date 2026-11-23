@@ -1,0 +1,11 @@
+{
+  "strategy": "new non-persistent browser context",
+  "verified": true,
+  "state": {
+    "labels": [],
+    "editing_count": 0,
+    "edit_values": [],
+    "visible_text": "todos\n\nDouble-click to edit a todo\n\nCreated by the TodoMVC Team\n\nPart of TodoMVC",
+    "storage": {}
+  }
+}

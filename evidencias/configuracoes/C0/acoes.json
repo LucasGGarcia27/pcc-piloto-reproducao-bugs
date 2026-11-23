@@ -1,0 +1,200 @@
+[
+  {
+    "step": 1,
+    "action": {
+      "type": "fill",
+      "target": "1",
+      "value": "Título original",
+      "reason": "Preencher uma tarefa para testar o cancelamento da edição."
+    },
+    "before": {
+      "labels": [],
+      "editing_count": 0,
+      "editing_indices": [],
+      "edit_values": [],
+      "visible_text": "todos\n\nDouble-click to edit a todo\n\nCreated by the TodoMVC Team\n\nPart of TodoMVC",
+      "storage": {}
+    },
+    "after": {
+      "labels": [],
+      "editing_count": 0,
+      "editing_indices": [],
+      "edit_values": [],
+      "visible_text": "todos\n\nDouble-click to edit a todo\n\nCreated by the TodoMVC Team\n\nPart of TodoMVC",
+      "storage": {}
+    },
+    "error": null
+  },
+  {
+    "step": 2,
+    "action": {
+      "type": "press",
+      "target": "1",
+      "value": "Enter",
+      "reason": "Criar a tarefa com o título original para testar a edição e seu cancelamento."
+    },
+    "before": {
+      "labels": [],
+      "editing_count": 0,
+      "editing_indices": [],
+      "edit_values": [],
+      "visible_text": "todos\n\nDouble-click to edit a todo\n\nCreated by the TodoMVC Team\n\nPart of TodoMVC",
+      "storage": {}
+    },
+    "after": {
+      "labels": [
+        "Título original"
+      ],
+      "editing_count": 0,
+      "editing_indices": [],
+      "edit_values": [],
+      "visible_text": "todos\nToggle All Input\nTítulo original\n1 item left!\nAllActiveCompleted\n\nDouble-click to edit a todo\n\nCreated by the TodoMVC Team\n\nPart of TodoMVC",
+      "storage": {}
+    },
+    "error": null
+  },
+  {
+    "step": 3,
+    "action": {
+      "type": "dblclick",
+      "target": "5",
+      "value": "",
+      "reason": "Abrir a edição do título da tarefa para testar o cancelamento."
+    },
+    "before": {
+      "labels": [
+        "Título original"
+      ],
+      "editing_count": 0,
+      "editing_indices": [],
+      "edit_values": [],
+      "visible_text": "todos\nToggle All Input\nTítulo original\n1 item left!\nAllActiveCompleted\n\nDouble-click to edit a todo\n\nCreated by the TodoMVC Team\n\nPart of TodoMVC",
+      "storage": {}
+    },
+    "after": {
+      "labels": [
+        "Título original"
+      ],
+      "editing_count": 1,
+      "editing_indices": [
+        0
+      ],
+      "edit_values": [
+        "Título original"
+      ],
+      "visible_text": "todos\nToggle All Input\n1 item left!\nAllActiveCompleted\n\nDouble-click to edit a todo\n\nCreated by the TodoMVC Team\n\nPart of TodoMVC",
+      "storage": {}
+    },
+    "error": null
+  },
+  {
+    "step": 4,
+    "action": {
+      "type": "fill",
+      "target": "4",
+      "value": "Título que deveria ser descartado",
+      "reason": "Alterar o título antes de tentar cancelar a edição com Escape."
+    },
+    "before": {
+      "labels": [
+        "Título original"
+      ],
+      "editing_count": 1,
+      "editing_indices": [
+        0
+      ],
+      "edit_values": [
+        "Título original"
+      ],
+      "visible_text": "todos\nToggle All Input\n1 item left!\nAllActiveCompleted\n\nDouble-click to edit a todo\n\nCreated by the TodoMVC Team\n\nPart of TodoMVC",
+      "storage": {}
+    },
+    "after": {
+      "labels": [
+        "Título original"
+      ],
+      "editing_count": 1,
+      "editing_indices": [
+        0
+      ],
+      "edit_values": [
+        "Título que deveria ser descartado"
+      ],
+      "visible_text": "todos\nToggle All Input\n1 item left!\nAllActiveCompleted\n\nDouble-click to edit a todo\n\nCreated by the TodoMVC Team\n\nPart of TodoMVC",
+      "storage": {}
+    },
+    "error": null
+  },
+  {
+    "step": 5,
+    "action": {
+      "type": "press",
+      "target": "4",
+      "value": "Escape",
+      "reason": "Cancelar a alteração e verificar se a edição termina preservando o título original."
+    },
+    "before": {
+      "labels": [
+        "Título original"
+      ],
+      "editing_count": 1,
+      "editing_indices": [
+        0
+      ],
+      "edit_values": [
+        "Título que deveria ser descartado"
+      ],
+      "visible_text": "todos\nToggle All Input\n1 item left!\nAllActiveCompleted\n\nDouble-click to edit a todo\n\nCreated by the TodoMVC Team\n\nPart of TodoMVC",
+      "storage": {}
+    },
+    "after": {
+      "labels": [
+        "Título original"
+      ],
+      "editing_count": 1,
+      "editing_indices": [
+        0
+      ],
+      "edit_values": [
+        "Título que deveria ser descartado"
+      ],
+      "visible_text": "todos\nToggle All Input\n1 item left!\nAllActiveCompleted\n\nDouble-click to edit a todo\n\nCreated by the TodoMVC Team\n\nPart of TodoMVC",
+      "storage": {}
+    },
+    "error": null
+  },
+  {
+    "step": 6,
+    "action": {
+      "type": "click",
+      "target": "1",
+      "value": "",
+      "reason": "Após Escape, a tarefa continuou em edição com o texto alterado. Tirar o foco para verificar se o texto que deveria ter sido descartado acaba aplicado."
+    },
+    "before": {
+      "labels": [
+        "Título original"
+      ],
+      "editing_count": 1,
+      "editing_indices": [
+        0
+      ],
+      "edit_values": [
+        "Título que deveria ser descartado"
+      ],
+      "visible_text": "todos\nToggle All Input\n1 item left!\nAllActiveCompleted\n\nDouble-click to edit a todo\n\nCreated by the TodoMVC Team\n\nPart of TodoMVC",
+      "storage": {}
+    },
+    "after": {
+      "labels": [
+        "Título que deveria ser descartado"
+      ],
+      "editing_count": 0,
+      "editing_indices": [],
+      "edit_values": [],
+      "visible_text": "todos\nToggle All Input\nTítulo que deveria ser descartado\n1 item left!\nAllActiveCompleted\n\nDouble-click to edit a todo\n\nCreated by the TodoMVC Team\n\nPart of TodoMVC",
+      "storage": {}
+    },
+    "error": null
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "report": {
+    "expected": "Ao cancelar uma alteração no título de uma tarefa, a edição deve ser encerrada e o título original deve ser preservado.",
+    "observed": "O cancelamento de uma alteração pode deixar a tarefa em edição e o texto que deveria ter sido descartado pode acabar sendo aplicado.",
+    "goal": "Use a interface para tentar reproduzir esse comportamento e registre o que observou."
+  },
+  "categories": {
+    "C": {
+      "category": "C",
+      "records": [
+        {
+          "order": 1,
+          "t_ms": 517,
+          "type": "lifecycle",
+          "name": "domcontentloaded"
+        },
+        {
+          "order": 2,
+          "t_ms": 517,
+          "type": "lifecycle",
+          "name": "load"
+        }
+      ],
+      "limitations": [
+        "Eventos de ciclo de vida são observações do navegador, sem instrumentação de funções da aplicação.",
+        "Erros de carregamento de recursos auxiliares são mantidos na evidência bruta, mas excluídos deste pacote."
+      ]
+    }
+  }
+}

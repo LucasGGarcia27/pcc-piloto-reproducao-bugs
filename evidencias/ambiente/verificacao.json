@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-11-23T05:32:58.462Z",
+  "checks": [
+    {
+      "name": "upstream_source_unchanged",
+      "passed": true,
+      "count": 29
+    },
+    {
+      "name": "original_context_documents_unchanged",
+      "passed": true,
+      "count": 2
+    },
+    {
+      "name": "eight_packets_exact_allowlists_and_identical_report",
+      "passed": true
+    },
+    {
+      "name": "oracle_positive_and_negative_controls",
+      "passed": true,
+      "note": "Controles unitários do avaliador; não são tentativas LLM."
+    },
+    {
+      "name": "real_browser_broker_blocks_eval_selectors_devtools_external_links_and_server_files",
+      "passed": true
+    }
+  ]
+}
